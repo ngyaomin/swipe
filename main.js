@@ -26,7 +26,7 @@ class App extends React.Component {
     return (
       <View style={styles.container}>
         <Deck
-          date={Data}
+          data={DATA}
           renderCard={this.renderCard}
         />
       </View>
