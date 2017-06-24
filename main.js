@@ -27,7 +27,11 @@ class App extends React.Component {
           Text can be customise further
         </Text>
 
-      
+        <Button
+          icon={{ name: 'code' }}
+          backgroundColor="#03A9F4"
+          title="view now"
+        />
       </Card>
     );
   }
